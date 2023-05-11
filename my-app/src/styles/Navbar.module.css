@@ -1,0 +1,16 @@
+.navbar {
+    display: flex;
+    background-color: aquamarine;
+    padding: 20px 10px;
+}
+
+.navbar li {
+    color: white;
+    margin-right: 1em;
+    text-decoration: none;
+    transition: .4s;
+}
+
+.navbar li:hover {
+    color: black;
+}
