@@ -1,5 +1,6 @@
 import Navbar from "@/components/Navbar";
 import Layout from "@/components/layout";
+import Todos from "@/pages/todos";
 
 export default function Home() {
   return (
@@ -12,6 +13,7 @@ export default function Home() {
           </span>
         </div>
       </Layout>
+      <Todos />
     </>
   );
 }
